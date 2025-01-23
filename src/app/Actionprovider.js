@@ -1,8 +1,8 @@
 import OpenAI from "openai";
 
 const openai= new OpenAI({
-    apiKey:'d1096948639d41ec888a0627e0626ffb',
-    baseURL:'https://api.aimlapi.com',
+    apiKey:'PUT YOUR API KEY',
+    baseURL:'MENTION THE BASE URL',
     dangerouslyAllowBrowser:true
 })
 class ActionProvider{
